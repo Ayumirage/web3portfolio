@@ -21,22 +21,6 @@ import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
 
-const images = {
-  email,
-  mobile,
-  api,
-  cpp,
-  css,
-  hardhat,
-  javascript,
-  ganache,
-  react,
-  truffle,
-  nextjs,
-  typescript,
-  tailwind,
-};
-
 /* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 export default {
   email,
