@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-
-import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { BsTwitter, BsDiscord, BsGithub } from "react-icons/bs";
 
@@ -52,6 +50,7 @@ const Footer = () => {
           <a
             href="https://twitter.com/Ayumirage"
             target="_blank"
+            rel="noreferrer"
             className="p-text"
           >
             https://twitter.com/Ayumirage
@@ -59,7 +58,12 @@ const Footer = () => {
         </div>
         <div className="app__footer-card">
           <BsDiscord className="app__icons" />
-          <a href="Hyru#2473" target="_blank" className="p-text">
+          <a
+            href="Hyru#2473"
+            target="_blank"
+            rel="noreferrer"
+            className="p-text"
+          >
             Hyru#2473
           </a>
         </div>
@@ -68,6 +72,7 @@ const Footer = () => {
           <a
             href="https://github.com/Ayumirage"
             target="_blank"
+            rel="noreferrer"
             className="p-text"
           >
             https://github.com/Ayumirage
